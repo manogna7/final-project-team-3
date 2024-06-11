@@ -130,7 +130,7 @@ The API endpoints are defined in the OpenAPI specification and can be viewed in 
 1. **Deploy using Google Cloud Run:**
    - Build and push the Docker image to Google Container Registry:
      ```sh
-     gcloud builds submit --tag gcr.io/your-project-id/tarpaulin-api
+      gcloud builds submit --tag gcr.io/team-3-425920/tarpaulin-api
      ```
    - Deploy the image to Cloud Run:
      ```sh
